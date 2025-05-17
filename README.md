@@ -1,0 +1,1 @@
+This is a small project to submit for my Chingu Solo project, as my previous work was left with my employer and inaccessible for this purpose. It asks you to input your birth month, gives you two guesses as to which random number was chosen, then records your results. It can be accessed at http://guessinggrid.us-east-1.elasticbeanstalk.com/index.cfm
