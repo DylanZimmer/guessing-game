@@ -1,0 +1,21 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"ERROR","http-nio-8080-exec-4","05/09/2025","12:33:02","","Datasource [cs_db] doesn't exist;Datasource [cs_db] doesn't exist
+available datasource names are [];lucee.runtime.exp.DatabaseException: Datasource [cs_db] doesn't exist
+	at lucee.runtime.exp.DatabaseException.notFoundException(DatabaseException.java:199)
+	at lucee.runtime.PageContextImpl.getDataSource(PageContextImpl.java:4001)
+	at lucee.runtime.tag.Query.toDatasource(Query.java:250)
+	at lucee.runtime.tag.Query.setDatasource(Query.java:242)
+	at index_cfm$cf.call(/index.cfm:15)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:1112)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:1006)
+	at lucee.runtime.listener.ModernAppListener._onRequest(ModernAppListener.java:213)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:41)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2810)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2797)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2768)
+	at lucee.runtime.engine.Request.exe(Request.java:45)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1109)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1066)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:97)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:42)
+..."
